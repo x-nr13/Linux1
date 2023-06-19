@@ -1,0 +1,48 @@
+   0 cd /home
+   1 mkdir animals
+   2 ls
+   3 cd animals
+   4 mkdir cats
+   5 mkdir dogs
+   6 mkdir fish
+   7 cd /root
+   8 tree
+   9 cd /home
+  10 tree
+  11 mkdir -p /home/animals/cats; touch /home/animals/cats/garfield.txt
+  12 ls
+  13 tree
+  14 cd /dogs
+  15 mkdir -p /home/animals/dogs; touch /home/animals/dogs/pluto.txt
+  16 mkdir -p /home/animals/fish && touch /home/animals/fish/nemo.txt
+  17 tree
+  18 mkdir -p /root/tmp; touch /root/tmp/adam.txt
+  19 ls
+  20 cd /root
+  21 tree
+  22 mkdir /home/humans
+  23 cp adam /home/humans
+  24 cd /tmp
+  25 cp /root/tmp/adam.txt /home/humans
+  26 cd home
+  27 cd /home
+  28 tree
+  29 mkdir -p /root/tmp; touch/root/tmp/evA.txt
+  30 cd tmp
+  31 cd root
+  32 cd /root
+  33 cd /tmp
+  34 touch evA.txt
+  35 mv /root/tmp/evA.txt /root/opt/eva.txt
+  36 cd /opt
+  37 cd ..
+  38 ls
+  39 ls-l
+  40 mv /tmp/eva.txt /opt/eve.txt
+  41 mv /tmp/evA.txt /opt/eve.txt
+  42 ls
+  43 mv /opt/eve.txt /home/humans/eve.txt
+  44 cd home
+  45 tree
+  46 history
+  47 history > homework1.txt
